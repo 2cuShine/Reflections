@@ -6,3 +6,6 @@ I only want dataflow when I know what's there. Maybe som other persons have adde
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Clones are copies of repositories that I can make on my computer or from github to my computer. forks are clones itin github. I can use fork a repository from another github user and work with the fork in my profile. branches are "lines" of commits which can be pushed or pulled t or from github.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+When somebody did new commits on Github during me being offline I can fetch those commits and see what was changed by doing git diff. I can also merge the commits.
