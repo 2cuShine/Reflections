@@ -3,3 +3,19 @@ A folder named .git is created for a GIT repository. I need it to make commits.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area only contains the files that should be alltogether saved in a commit. Its value is that I can easily look up which files are saved and which are untracked and I can add files to or remove files from the staging area.
+
+How can you use the staging area to make sure you have one commit per logical change?
+no idea
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If I want to try something out but am not sure whether keep it or not, or if I want to add another variation of my program like an expert mode, easy mode, different language or other. Branches would help to organize such changes and be able to switch to another branch.
+
+How do the diagrams help you visualize the branch structure?
+I can see where a branch started, which branches there are, hhat they have in common and whether there are unreachable commmits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is a commit with all the changes from both branches since the commit where the branches divided alltogether. Addes lines are added, deleted lines deleted. We represent the merge in the diagram the way we do to show which commits where merged - these are both the parents of the new commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pro you dont have to check each difference by your own
+con maybe git does some automatic merges that cause redundances git did not see
