@@ -1,2 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
 when Iwant to share my repository or even want others to also work on it.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+I only want dataflow when I know what's there. Maybe som other persons have added content thatI don't  want to have on my computer.
