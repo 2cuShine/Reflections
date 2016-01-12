@@ -9,3 +9,7 @@ Clones are copies of repositories that I can make on my computer or from github 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 When somebody did new commits on Github during me being offline I can fetch those commits and see what was changed by doing git diff. I can also merge the commits.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I wold collaborate by sending changed files to others or uploadiing them to a server and sending others the link and the asking for cheking the files. 
+At the moment I don't now wheter t would be easier or harder. Depends on what it is we are woking on, I suppose.
