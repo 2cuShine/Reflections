@@ -13,3 +13,6 @@ When somebody did new commits on Github during me being offline I can fetch thos
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I wold collaborate by sending changed files to others or uploadiing them to a server and sending others the link and the asking for cheking the files. 
 At the moment I don't now wheter t would be easier or harder. Depends on what it is we are woking on, I suppose.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When I make changes that I want others to reflect on and discuss, and when maybe others also make changes to the files, it's goot to make my changes at a different branch. So I can watch the different changes seperately and decide which ones to merge into my master at the end.
